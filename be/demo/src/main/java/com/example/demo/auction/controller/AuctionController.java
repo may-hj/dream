@@ -9,5 +9,5 @@ import lombok.RequiredArgsConstructor;
 @Controller
 @RequiredArgsConstructor
 public class AuctionController {
-    private final AuctionService service;
+    // private final AuctionService service;
 }

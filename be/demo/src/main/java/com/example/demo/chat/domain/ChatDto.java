@@ -15,7 +15,8 @@ public class ChatDto implements Serializable{
 	private static final long serialVersionUID = 1L;
 	private long boardNo;
 	private String messages;
-	private String title;
+	private String keyboard;
+	private String delete;
 	private String username;
 	private String regdate;
 }

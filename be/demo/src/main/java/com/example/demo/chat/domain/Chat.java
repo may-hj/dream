@@ -21,11 +21,14 @@ public class Chat {
 	@Column(name ="messages")
 	private String messages;
 
-	@Column(name = "title")
-	private String title;
+	@Column(name = "keyboard")
+	private String keyboard;
 
 	@Column(name = "username")
 	private String username;
+	
+	@Column(name = "delete")
+	private String delete;
 
 	@Column(name = "regdate")
 	private String regdate;

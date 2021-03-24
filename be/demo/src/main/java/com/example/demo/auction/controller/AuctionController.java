@@ -1,13 +1,13 @@
 package com.example.demo.auction.controller;
 
-import com.example.demo.auction.service.AuctionService;
+import com.example.demo.auction.service.AuctionServiceImpl;
 
-import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RestController;
 
 import lombok.RequiredArgsConstructor;
 
-@Controller
+@RestController
 @RequiredArgsConstructor
 public class AuctionController {
-    // private final AuctionService service;
+    private final AuctionServiceImpl service;
 }
